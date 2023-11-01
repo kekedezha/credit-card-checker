@@ -107,8 +107,9 @@ const idInvalidCardCompanies = nestedArrInput => {
     });
     return returnArray;
 }
-console.log(idInvalidCardCompanies(findInvalidCards(batch)));
-
+//console.log(idInvalidCardCompanies(findInvalidCards(batch)));
+console.log(idInvalidCardCompanies([invalid1])); // Should print['visa']
+console.log(idInvalidCardCompanies([invalid2])); // Should print ['mastercard']
 
 
 
